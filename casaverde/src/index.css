@@ -1,0 +1,12 @@
+:root{
+  --verde: #213E26;
+  --amarelo: #FFCB47;
+  --preto: #202020;
+  --branco: #fff;
+  --tamanho-normal: 1em; 
+  --tamanho-grande: 1.38em;
+  --tamanho-destaque: 5.13em;
+  --peso-negrito: 700;
+  --peso-medio: 500;
+  --peso-normal: 400;
+}
