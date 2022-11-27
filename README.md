@@ -29,8 +29,8 @@ The main focus of the exercises is to know how to:
 <img src="http://img.shields.io/static/v1?label=STATUS&message=Not%20Started&color=red&style=for-the-badge"/>
 
 - Schedule
-  - Day 1: 
-  - Day 2: 
+  - Day 1: Create menu and newsletter components
+  - Day 2: Use styled components for styling
   - Day 3: 
   - Day 4: 
   - Day 5: 
