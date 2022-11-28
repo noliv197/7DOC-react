@@ -31,7 +31,7 @@ The main focus of the exercises is to know how to:
 - Schedule
   - Day 1: Create menu and newsletter components
   - Day 2: Use styled components for styling
-  - Day 3: 
+  - Day 3: Form validation and alert message
   - Day 4: 
   - Day 5: 
   - Day 6: 
