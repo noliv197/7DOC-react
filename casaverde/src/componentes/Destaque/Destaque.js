@@ -13,7 +13,7 @@ const DestaqueStyled = styled.section`
     h1{
         color: var(--preto);
         font-size: var(--tamanho-destaque);
-        font-weight: var(--peso-negrito);
+        font-family: var(--fonte-secundaria);
         opacity: 1;
     }
     p{

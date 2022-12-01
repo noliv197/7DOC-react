@@ -1,0 +1,38 @@
+[
+    {
+        "nome": "Ajuga reptans",
+        "img": "",
+        "id": 1,
+        "preco": 20
+    },
+    {
+        "nome": "Cordyline fruticosa",
+        "img": "",
+        "id": 2,
+        "preco": 30
+    },
+    {
+        "nome": "Crassula ovata",
+        "img": "",
+        "id": 3,
+        "preco": 50
+    },
+    {
+        "nome": "Cyperus rotundus",
+        "img": "",
+        "id": 4,
+        "preco": 15
+    },
+    {
+        "nome": "Delairea odorata",
+        "img": "",
+        "id": 5,
+        "preco": 150
+    },
+    {
+        "nome": "Datura metel",
+        "img": "",
+        "id": 6,
+        "preco": 49
+    }
+]

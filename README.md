@@ -32,8 +32,8 @@ The main focus of the exercises is to know how to:
   - Day 1: Create menu and newsletter components
   - Day 2: Use styled components for styling
   - Day 3: Form validation and alert message
-  - Day 4: 
-  - Day 5: 
+  - Day 4: Send register confirmation to the email provided
+  - Day 5: Connect application to a server to get products list
   - Day 6: 
   - Day 7: 
 
