@@ -4,12 +4,22 @@ import Cabecalho from "../componentes/Cabecalho";
 import Destaque from "../componentes/Destaque";
 import Ofertas from "../componentes/Ofertas";
 import Principal from "../componentes/Principal";
-import { chave } from "../servidor/server";
-
+import {produtoService} from '../servidor/ProdutosServidor'
 
 export default function HomePage(){
-    console.log(chave)
+    const servidor = produtoService()
     const [email,setEmail] = useState('')
+    const [produtos, setProdutos] = useState([])
+    const [filtro, setFiltro] = useState('')
+    const [ordenador, setOrdenador] = useState('')
+
+    useEffect(()=>{
+        servidor
+            .getAll()
+            .then(dados => {
+                setProdutos(dados.data)
+            })
+        })
 
     useEffect(()=>{
         if(email){
@@ -23,7 +33,13 @@ export default function HomePage(){
             <Destaque setEmail={setEmail}/>
             <div id='alerta'>{email?<Alerta>Obrigado pela sua assinatura, você receberá nossas novidades no e-mail: {email}</Alerta>:''}</div>
             <Principal/>
-            <Ofertas/>
+            <Ofertas 
+                produtos={produtos}
+                filtro={filtro}
+                setFiltro={setFiltro}
+                ordenador={ordenador}
+                setOrdenador={setOrdenador}
+            />
         </main>
         </>
     )

@@ -6,11 +6,13 @@ export default function CardOferta({produto}){
     return(
         <CardOfertaStyled>
             <img src={produto.img} alt={produto.nome}/>
-            <div>
+            <div className="texto">
                 <h3>{produto.nome}</h3>
-                <span>{`R$ ${produto.preco}`}</span>
-                <a href='/'>Comprar <AiOutlineArrowRight size={20}/></a>
-                
+                <span>{`R$ ${parseFloat(produto.preco).toFixed(2)}`}</span>
+                <div className="link">
+                    <a href='/'>Comprar </a>
+                    <AiOutlineArrowRight size={20}/>
+                </div>
             </div>
         </CardOfertaStyled>
 

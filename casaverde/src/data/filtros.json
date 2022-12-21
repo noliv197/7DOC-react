@@ -1,0 +1,34 @@
+{
+    "filtros":[
+        {
+            "nome": "",
+            "value": ""
+        },
+        {
+            "nome": "10 - 50",
+            "value": "baixo"
+        },
+        {
+            "nome": "50 - 100",
+            "value": "medio"
+        },
+        {
+            "nome": "> 100",
+            "value": "alto"
+        }
+    ],
+    "ordenador":[
+        {
+            "nome": "",
+            "value": ""
+        },
+        {
+            "nome": "Nome",
+            "value": "nome"
+        },
+        {
+            "nome": "Preço",
+            "value": "preco"
+        }
+    ]
+}

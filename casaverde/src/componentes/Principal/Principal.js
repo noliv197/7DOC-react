@@ -13,7 +13,7 @@ const PrincipalStyled = styled.section`
         width: 585px;
         height: 440px;
         display: inline-block;
-        background-color: var(--verde);
+        background: url('./imagens/bkg-destaque.png');
     }
     .info{
         padding: 1rem;

@@ -8,6 +8,10 @@ const OfertasStyled = styled.section`
         grid-template-columns: repeat(3, 1fr);
         gap: 1rem;
     }
+    .filtros{
+        display:flex;
+        margin-bottom: 1rem;
+    }
     span{
         opacity: 0.5;
         font-size: var(--tamanho-grande)

@@ -9,13 +9,17 @@ const CardOfertaStyled = styled.div`
     height: 200px;
     img{
         flex-grow: 1;
-        width: 65%;
+        width: 60%;
     }
-    div{
+    .texto{
         display: flex;
         flex-direction: column;
         text-align: left;
         padding: .5rem;
+    }
+    .link{
+        display: flex;
+        color: var(--amarelo);
     }
     h3{
         font-size: var(--tamanho-grande);
