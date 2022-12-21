@@ -1,14 +1,23 @@
 import styled from "styled-components"
 
-const FiltroStyled = styled.div`
-.filtro{
+const DropDownStyled = styled.div`
+    display: flex;
+    flex-direction: column;
     border: 1px solid var(--amarelo);
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    background-color: var(--branco);
-    color: var(--preto);
-    padding: 0;
-    min-width: 100px;
+    .label{
+        font-size: var(--tamanho-normal);
+        opacity: 1;
+    }
+    .filtro{
+        border: 1px solid var(--amarelo);
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        background-color: var(--branco);
+        color: var(--preto);
+        padding: 0;
+        min-width: 100px;
     }
     .filtro--ativo{
         background-color: var(--amarelo);
@@ -41,4 +50,4 @@ const FiltroStyled = styled.div`
     
 `
 
-export default FiltroStyled
+export default DropDownStyled
