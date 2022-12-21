@@ -10,6 +10,9 @@ const CardOfertaStyled = styled.div`
     img{
         flex-grow: 1;
         width: 60%;
+        object-fit: cover;
+        box-sizing: border-box;
+        height: inherit;
     }
     .texto{
         display: flex;
