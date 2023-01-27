@@ -15,3 +15,4 @@ export function produtoService(){
     }
 }
 
+//To access the list of products the data property must be used

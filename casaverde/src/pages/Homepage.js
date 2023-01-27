@@ -1,24 +1,23 @@
 import { useEffect, useState } from "react";
 import { aplicaFiltro } from "../data/filtro";
-import {produtoService} from '../servidor/ProdutosServidor'
+// import {produtoService} from '../servidor/ProdutosServidor'
 import Alerta from "../componentes/Alerta";
 import Cabecalho from "../componentes/Cabecalho";
 import Destaque from "../componentes/Destaque";
 import Ofertas from "../componentes/Ofertas";
 import Principal from "../componentes/Principal";
+import getProdutos from "../servidor/Server";
 
 export default function HomePage(){
-    const servidor = produtoService()
     const [email,setEmail] = useState('')
     const [produtos, setProdutos] = useState([])
     const [filtro, setFiltro] = useState(null)
     const [ordenador, setOrdenador] = useState('')
 
     useEffect(()=>{
-        servidor
-            .getAll()
+        getProdutos()
             .then(dados => {
-                const novaLista = dados.data.map(item=>  {
+               const novaLista = dados.map(item=>  {
                     const parFiltro = {'filtro': aplicaFiltro(item)}
                     return item = {...item, ...parFiltro} 
                 })
