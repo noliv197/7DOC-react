@@ -4,10 +4,10 @@
 | -------------  | --- |
 | :sparkles: Name        | **E-commerce**
 | :label: Build with | React
-| :rocket: URL         | 
+| :rocket: URL         | http://ecommerce-react-swart.vercel.app
 | :fire: Challenge     | https://7daysofcode.io/matricula/react
 
-![](https://i.imgur.com/zVUkH73.gifv#vitrinedev)
+![](email.gif#vitrinedev)
 
 ## About The Project
 <img src="http://img.shields.io/static/v1?label=Development&message=Finished&color=GREEN&style=for-the-badge"/>
@@ -36,4 +36,4 @@
     - I created the function to send the email, but since the backend was not implemented it is not working
     - I used Supabase as the data server API
 
-![](https://i.imgur.com/q0QZBX1.gifv)
+![](filtro.gif)
